@@ -1,0 +1,10 @@
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\bin\Debug\OstadAspClass2.exe.config
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\bin\Debug\OstadAspClass2.exe
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\bin\Debug\OstadAspClass2.pdb
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.csproj.AssemblyReference.cache
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.Properties.Resources.resources
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.csproj.GenerateResource.cache
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.csproj.CoreCompileInputs.cache
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.exe
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.pdb
+C:\Users\Ashikur Rahman\source\repos\OstadAspClass2\OstadAspClass2\obj\Debug\OstadAspClass2.Calculator.resources
