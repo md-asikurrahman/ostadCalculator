@@ -22,84 +22,92 @@ namespace OstadAspClass2
 
         private void oneButton_Click(object sender, EventArgs e)
         {
-            
-            outPutTextBox.Text = outPutTextBox.Text + 1.ToString();
-            
+            KeyPressMethod(1);
         }
 
         private void twoButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 2.ToString();
+            KeyPressMethod(2);
         }
 
         private void threeButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 3.ToString();  
+            KeyPressMethod(3);
         }
 
         private void fourButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 4.ToString();
+            KeyPressMethod(4);
         }
 
         private void fiveButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 5.ToString();
+            KeyPressMethod(5);
         }
 
         private void sixButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 6.ToString();
+            KeyPressMethod(6);
         }
 
         private void sevenButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 7.ToString();
+            KeyPressMethod(7);
         }
 
         private void eightButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 8.ToString();
+            KeyPressMethod(8);
         }
 
         private void nineButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 9.ToString();
+            KeyPressMethod(9);
         }
 
         private void zeroButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + 0.ToString();
+            KeyPressMethod(0);
+
+
+        }
+
+        private void KeyPressMethod(int i)
+        {
+            if (outPutTextBox.Text == i.ToString())
+            {
+                outPutTextBox.Text = i.ToString();
+            }
+            else
+            {
+                outPutTextBox.Text += i.ToString();
+            }
         }
 
         private void plusButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + "+";
-            operatorValue = outPutTextBox.Text;
-           // totalResult = double.Parse(outPutTextBox.Text);
+            
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + "-";
-            operatorValue = outPutTextBox.Text;
+            
         }
 
         private void intoButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + "*";
-            operatorValue = outPutTextBox.Text;
+            
         }
 
         private void divButton_Click(object sender, EventArgs e)
         {
-            outPutTextBox.Text = outPutTextBox.Text + "/";
-            operatorValue = outPutTextBox.Text;
+           
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
             outPutTextBox.Clear();
+            outPutTextBox.Text = "0";
         }
 
         private void equalButton_Click(object sender, EventArgs e)
